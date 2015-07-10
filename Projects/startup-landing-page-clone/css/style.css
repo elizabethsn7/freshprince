@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -18,6 +24,7 @@ html {
 
 body {
   margin: 0;
+
 }
 
 /* HTML5 display definitions
@@ -425,3 +432,219 @@ td,
 th {
   padding: 0;
 }
+/*styles*/
+
+body {
+  background-color: LightGray;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 1440px;
+  margin: 0, auto;
+}
+
+ /*Navigation Section */
+
+ 
+ .top-navigation {
+    background-color: #fff; 
+    position: fixed;  
+    width: 100%;
+    top: 0;
+
+ }
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 15px;
+
+}
+.top-navigation .logo {
+    height: 95px;
+    width: 60px;
+    margin-top: -24px;
+}
+.top-navigation .links {
+  float: right;
+  padding: "20px 15px";
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04rem;
+  color: #838994;
+  letter-spacing: 0.03em;
+  margin-top: 1.7rem;
+
+  }
+.top-navigation .links li {
+   display: inline-block; 
+    margin-left: 25px;
+    }
+    
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+ .introduction {
+    background-image: url(http://i.imgur.com/NH8MNzE.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 736px;
+    padding-top: 273px;
+  }
+.content {
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+ }
+.introduction .content h1{
+  font-size: 3.125rem;
+}
+a, .big-button {
+  color: white;
+  border-radius: 4px;
+  padding: 16px 26px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 160px;
+  text-decoration: none;
+  background-color:  #f15a29;
+  font-size: 16px;
+}
+.cases {
+  background-color: white;
+  padding-top: 100px;
+}
+.cases .content: {
+  text-align: center;
+}
+
+.cases h2{ 
+text-align: center;
+font-weight: 300;
+font-size: 42px;
+line-height: 50px;
+margin: 0 0 100px;
+}
+
+ul.devices {
+  margin: 0 auto;
+  width: 60%;
+  padding: 0;
+}
+.cases .devices li{
+   display: inline-block;
+   width: 33%;
+   text-align: center;
+   }
+
+.cases .devices p{
+  font-size: 25px;
+  margin-bottom: 150px;
+}
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social h5 {
+  font-weight: 300;
+}
+.social ul {
+  padding: 0;
+}
+.social .icons > li {
+    border-radius: 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
